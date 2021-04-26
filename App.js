@@ -17,7 +17,7 @@ export default class App extends Component {
     this._getWeatherReport=this._getWeatherReport.bind(this);
   }
    async _getWeatherReport(){
-     const response=await fetch('http://api.openweathermap.org/data/2.5/forecast?q=Colombo,lk&appid=7b75ec45776dd52e00403f4d35fe3c5c&units=metric')
+     const response=await fetch('url for weather api comes here.use a free api from openweathermap.org')
         const data=await response.json();
         this.setState({
           report:{
